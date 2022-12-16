@@ -1,0 +1,30 @@
+import React from 'react';
+import "./Products.css";
+import ProductsData from "./ProductsData";
+import ProductsItem from './ProductsItem';
+
+const Products = () => {
+
+    const Product = ()=>{
+        return(
+            ProductsData.map((item, index) =>{
+                return(
+                    <ProductsItem key={index}
+                        image={item.image}
+                        name={item.name}
+                        price={item.price} 
+                        cart={item.cart}   
+                    />
+                )
+            })
+        );
+    };
+  return (
+    <div>
+        {Product()}
+    </div>
+  )
+};
+
+
+export default Products;

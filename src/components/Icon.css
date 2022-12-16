@@ -1,0 +1,21 @@
+.icons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.icons .about{
+    display: flex;
+    width: 250px;
+    gap: 25px;
+    align-items: center;
+}
+.icons .about img{
+    width: 50px;
+}
+.icons .about p{
+    color: gray;
+    font-size: 14px;
+}
+.icons .about h4{
+    font-size: 14px;
+}

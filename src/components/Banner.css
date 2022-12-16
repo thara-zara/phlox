@@ -1,0 +1,108 @@
+.sale{
+    margin-top: 100px;
+    height: 50vh;
+    border-radius: 25px;
+    background: #f42c37;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+}
+.sale2{
+    height: 50vh;
+    margin-top: 100px;
+    border-radius: 25px;
+    background: #3ccb75;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.sale-left{
+    max-width: 25%;
+    color: #fff;
+    line-height: 75px;
+}
+.sale-left h5{
+    font-weight: normal;
+    font-size: 18px;
+   
+}
+.sale-left h1{
+    font-weight: 900;
+    font-size: 100px;
+}
+.sale-right{
+    max-width: 35%;
+    color: #fff;
+    line-height: 40px;
+
+}
+.sale-right h5{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 25px;
+    text-transform: capitalize;
+}
+.sale-right h2{
+    font-weight: 900;
+    font-size: 50px;
+    margin-top: 25px;
+}
+.sale-right .btn{
+    margin-top: 25px;
+}
+.sale-right .btn span{
+    padding: 10px 30px 10px 30px;
+    font-size: 14px;
+    background: rgb(255, 255, 255);
+    border-radius:25px ;
+    color: #f42c37;
+    cursor: pointer;
+}
+.sale-right .btn span:hover{
+    background: rgb(0, 0, 0);
+    border-radius:25px ;
+    color: #ffffff;
+    transition: 0.2s ease-in;
+}
+.sale .image{
+    position: absolute;
+    left:10px;
+    width: 900px;
+}
+.sale .image img{
+    width: 100%;
+}
+
+
+
+.sale2{
+    height: 50vh;
+    margin-top: 100px;
+    border-radius: 25px;
+    background: #3ccb75;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+}
+.sale2 .image{
+    position: absolute;
+    left:50px;
+    top: -200px;
+    width:700px;
+}
+.sale2 .sale-right .btn span{
+    padding: 10px 30px 10px 30px;
+    font-size: 14px;
+    background: rgb(255, 255, 255);
+    border-radius:25px ;
+    color: #3ccb75;
+    cursor: pointer;
+}
+.sale2 .image img{
+    width: 100%;
+}

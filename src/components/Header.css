@@ -1,0 +1,56 @@
+.hero{
+    height: 90vh;
+    background: rgb(210, 210, 210);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    justify-content: center;
+}
+.text{
+    padding-left: 10%;
+    line-height: 100px;
+}
+.text h3{
+    font-size: 30px;
+    font-weight: normal;
+}
+.text h2{
+    font-size: 65px;
+}
+.text h1{
+    font-size: 150px;
+    font-weight: 900;
+    color: #fff;
+}
+.button {
+    margin-top: 35px;
+
+}
+.button span{
+    padding: 15px 25px 15px 25px;
+    background: rgb(228, 53, 53);
+    color: #fff;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.description{
+    line-height: 20px;
+    text-align: right;
+    padding-right: 25px;
+    color: gray;
+}
+.description h4{
+    color: #000;
+}
+.text .image{
+    position: absolute;
+    width: 1000px;
+    height: 500px;
+    top: 50px;
+    /* border: 1px solid green; */
+}
+.text .image img{
+    width: 100%;
+}
+

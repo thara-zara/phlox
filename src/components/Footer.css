@@ -1,0 +1,70 @@
+.footer{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 50px;
+}
+.footer-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30vh;
+}
+.footer-items h1{
+    width: 300px;
+}
+.footer-items p{
+    width: 200px;
+}
+.footer-items h5{
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.footer-items ul li{
+    text-transform: capitalize;
+    cursor: pointer;
+    line-height: 20px;
+    margin: 5px;
+}
+.foot-social{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.foot-social .social-icons{
+    display: flex;
+    gap: 10px;
+}
+.foot-social .social-icons i{
+    cursor: pointer;
+}
+.email{
+    width: 30%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.email input{
+    width: 100%;
+    height: 50px;
+    outline: none;
+    border: none;
+    background: rgb(226, 226, 226);
+    border-radius: 25px;
+    padding-left: 25px;
+    font-size: 18px;
+    
+}
+.email span{
+    position: absolute;
+    background: #f42c37;
+    padding: 10px 15px 10px 15px;
+    margin-right: 5px;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 12px;
+    right: 0;
+    cursor: pointer;
+}

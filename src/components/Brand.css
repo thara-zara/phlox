@@ -1,0 +1,19 @@
+.brand{
+    height: 30vh;
+    margin-top: 25px;
+    background: rgb(227, 227, 227);
+}
+.brand-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+.brand-items img{
+    cursor: pointer;
+    opacity: 0.5;
+}
+.brand-items img:hover{
+   /* filter: grayscale(0) contrast(0.1); */
+   opacity: 1;
+}

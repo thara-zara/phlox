@@ -1,0 +1,103 @@
+.product{
+    height: 110vh;
+    margin-top: 100px;
+}
+.product .header{
+    text-align: center;
+}
+.product .header h1{
+    font-size: 45px;
+}
+.product .header p{
+    color: gray;
+}
+.product-section .single-product{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+   /* border: 1px solid rebeccapurple; */
+    height: auto;
+    line-height: 35px;
+    cursor: pointer;
+    position: relative;
+    width: 250px;
+    /* overflow: hidden; */
+}
+.product-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    grid-row-gap:0;
+}
+.product-section .single-product .image{
+    width: 250px;
+    height: 200px;
+}
+.product-section .single-product .image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+.product-section .single-product .price{
+    font-weight: bold;
+    font-size: 16px;
+}
+.product-section .single-product .price .span{
+    color: gray;
+    padding-right: 10px;
+    font-weight: lighter;
+    text-decoration: line-through;
+}
+
+.product-section .single-product .name{
+    font-size: 14px;
+    line-height: 20px;
+}
+.product-section .single-product:hover .name{
+    color: #f42c37;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+}
+
+.product-section .single-product .sale-btn{
+    position: absolute;
+    color: #fff;
+    font-weight: bold;
+    left:5%;
+    top: 5%;
+    height: 50px;
+    width: 50px;
+    background: #f42c37;
+    text-align: center;
+    border-radius: 50%;
+}
+.product-section .single-product .sale-btn span{
+    font-size: 14px;
+    text-transform: capitalize;
+    border-radius:25px ;
+    color: #ffffff;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: lighter;
+}
+.product-section .single-product:hover .price .price-all{
+    display: none;
+}
+.product-section .single-product .price .cart{
+    font-size: 14px;
+    border-radius:25px ;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: normal;
+    padding: 5px 10px 5px 10px;
+    background: #f42c37;
+    opacity: 0;
+}
+.product-section .single-product:hover .price .cart{
+   opacity: 1;
+   transition: 0.3s ease-in;
+   text-transform:uppercase;
+}
